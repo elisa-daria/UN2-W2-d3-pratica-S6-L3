@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
 html,
 body,
 div,
@@ -149,6 +150,10 @@ button:nth-of-type(3) {
   background-color: #4caf50;
 }
 
+body {
+  font-family: "Poppins", sans-serif;
+}
+
 nav {
   display: flex;
   justify-content: center;
@@ -172,6 +177,9 @@ nav li {
   align-items: center;
   flex-direction: column;
   padding: 0.7em;
+}
+.head-liner h1 {
+  font-size: 2em;
 }
 
 .head-liner h1,

@@ -1,3 +1,7 @@
+body {
+  font-family: $font-family;
+}
+
 nav {
   @include gettingCentered;
   @include sameSpace;
@@ -15,6 +19,9 @@ nav {
   @include gettingCentered;
   flex-direction: column;
   padding: $main-padding;
+  h1 {
+    font-size: 2em;
+  }
 }
 .head-liner h1,
 p,
