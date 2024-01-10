@@ -1,0 +1,23 @@
+nav {
+  @include gettingCentered;
+  @include sameSpace;
+  ul {
+    @media screen and (min-width: 576px) {
+      display: flex;
+    }
+  }
+  li {
+    @include sameSpace;
+  }
+}
+
+.head-liner {
+  @include gettingCentered;
+  flex-direction: column;
+  padding: $main-padding;
+}
+.head-liner h1,
+p,
+article {
+  margin: $main-margin;
+}

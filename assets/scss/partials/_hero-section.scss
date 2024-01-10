@@ -1,0 +1,15 @@
+#hero article img {
+  max-width: $hero-a-img;
+  min-width: 280px;
+}
+#hero {
+  color: $text-color;
+  @include gettingCentered;
+  background-color: $bg-hero;
+  article {
+    @media screen and (min-width: 720px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+}
