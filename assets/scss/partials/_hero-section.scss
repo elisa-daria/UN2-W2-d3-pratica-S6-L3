@@ -1,6 +1,8 @@
 #hero article img {
-  max-width: $hero-a-img;
-  min-width: 280px;
+  width: 250px;
+  @media screen and (min-width: 576px) {
+    width: 500px;
+  }
 }
 #hero {
   color: $text-color;

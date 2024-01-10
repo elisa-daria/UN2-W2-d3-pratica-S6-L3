@@ -181,8 +181,12 @@ article {
 }
 
 #hero article img {
-  max-width: 573px;
-  min-width: 280px;
+  width: 250px;
+}
+@media screen and (min-width: 576px) {
+  #hero article img {
+    width: 500px;
+  }
 }
 
 #hero {
